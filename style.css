@@ -1,0 +1,653 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    height: 50px;
+    background-color: #4e4e4e;
+  }
+  
+  .container {
+    width: 397px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-container span {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+  }
+  
+  a {
+    font-size: 18px;
+    color: rgba(241, 241, 241, 1);
+  }
+  
+  .list {
+    display: none;
+  }
+  
+  header {
+    height: calc(100vh - 50px);
+    background: url(./assets/bg.jpg) no-repeat center;
+    background-size: cover;
+  }
+  
+  .shadow {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .header-container h1 {
+    font-size: 36px;
+    width: 359px;
+    line-height: 42px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin: 62px 0 42px;
+  }
+  
+  .button-offer {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border: 3px solid #ffffff;
+    width: 164px;
+    padding: 14px 58px;
+    box-sizing: border-box;
+  }
+  
+  section {
+    height: auto;
+    padding: 50px 0 50px;
+  }
+  
+  .specialist h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(21, 45, 65, 1);
+    padding: 0 0 60px 0;
+    text-align: center;
+  }
+  
+  .circle-1 {
+    aspect-ratio: 1;
+    height: 197px;
+    background-color: rgba(196, 196, 196, 1);
+    border-radius: 50%;
+    background: url(./assets/person1.jpg) center;
+    background-size: 197px;
+    margin: 0 auto 50px;
+  }
+  
+  .person {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .description {
+    white-space: pre-line;
+    font-size: 18px;
+    margin-bottom: 144px;
+    text-align: justify;
+  }
+  
+  .circle-2 {
+    aspect-ratio: 1;
+    height: 197px;
+    background-color: rgba(144, 125, 125, 1);
+    border-radius: 50%;
+    background: url(./assets/person2.jpg) center;
+    background-size: 197px;
+    margin: 0 auto 50px;
+  }
+  
+  .offer {
+    background-color: rgba(64, 93, 120, 1);
+  }
+  
+  .offer h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 0 83px 0;
+    text-align: center;
+  }
+  
+  .container-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 36px;
+    justify-content: center;
+  }
+  
+  .box {
+    aspect-ratio: 1;
+    width: 338px;
+    background-color: rgba(241, 241, 241, 1);
+    position: relative;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .new-offer p::after {
+    content: "\A  (nowość)";
+    white-space: pre-wrap;
+    font-size: 18px;
+  }
+  
+  .dot-new {
+    width: 38px;
+    aspect-ratio: 1;
+    background-color: rgba(224, 122, 100, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: -19px;
+    left: -19px;
+  }
+  
+  footer {
+    height: 147px;
+    background: rgba(78, 78, 78, 1);
+  }
+  
+  .container-footer {
+    height: 100%;
+  }
+  
+  .icons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 0;
+  }
+  
+  i {
+    color: rgba(255, 255, 255, 1);
+    font-size: 31px;
+  }
+  
+  i:nth-of-type(2n) {
+    margin-left: 18px;
+  }
+  
+  .container-footer p {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    text-align: center;
+    padding: 38px 0 0;
+  }
+  
+  @media only screen and (min-width: 425px) {
+    html {
+      scroll-behavior: smooth;
+    }
+  
+    body {
+      font-family: "Roboto", sans-serif;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    nav {
+      height: 50px;
+      background-color: #4e4e4e;
+    }
+  
+    .container {
+      width: 668px;
+      height: 100%;
+      margin: 0 auto;
+    }
+  
+    .nav-container {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-container span {
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      font-size: 18px;
+    }
+  
+    a {
+      font-size: 18px;
+      color: rgba(241, 241, 241, 1);
+    }
+  
+    .list {
+      display: none;
+    }
+  
+    header {
+      height: calc(100vh - 50px);
+      background: url(./assets/bg.jpg) no-repeat center;
+      background-size: cover;
+    }
+  
+    .shadow {
+      height: 100%;
+      background: rgba(0, 0, 0, 0.15);
+    }
+  
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+    }
+  
+    .header-container h1 {
+      font-size: 36px;
+      width: 577px;
+      line-height: 42px;
+    }
+  
+    header p {
+      font-size: 18px;
+      margin: 42px 0 42px;
+    }
+  
+    .button-offer {
+      font-weight: 700;
+      font-size: 18px;
+      color: white;
+      border: 3px solid #ffffff;
+      width: 164px;
+      padding: 14px 58px;
+      box-sizing: border-box;
+    }
+  
+    section {
+      height: auto;
+      padding: 50px 0 50px;
+    }
+  
+    .specialist h2 {
+      font-size: 36px;
+      font-weight: bold;
+      color: rgba(21, 45, 65, 1);
+      padding: 0 0 60px 0;
+      text-align: center;
+    }
+  
+    .circle-1 {
+      aspect-ratio: 1;
+      height: 197px;
+      background-color: rgba(196, 196, 196, 1);
+      border-radius: 50%;
+      background: url(./assets/person1.jpg) center;
+      background-size: 197px;
+      margin: 0 auto 50px;
+    }
+  
+    .person {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .description {
+      white-space: pre-line;
+      font-size: 18px;
+      margin-bottom: 144px;
+      display: flex;
+      justify-content: center;
+      text-align: justify;
+    }
+  
+    .circle-2 {
+      aspect-ratio: 1;
+      height: 197px;
+      background-color: rgba(144, 125, 125, 1);
+      border-radius: 50%;
+      background: url(./assets/person2.jpg) center;
+      background-size: 197px;
+      margin: 0 auto 50px;
+    }
+  
+    .offer {
+      background-color: rgba(64, 93, 120, 1);
+    }
+  
+    .offer h2 {
+      font-size: 36px;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      padding: 0 0 83px 0;
+      text-align: center;
+    }
+  
+    .container-grid {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 36px;
+      justify-content: center;
+    }
+  
+    .box {
+      aspect-ratio: 1;
+      width: 198px;
+      background-color: rgba(241, 241, 241, 1);
+      position: relative;
+      box-shadow: 0px 5px rgba(0, 0, 0, 0.15);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+    }
+  
+    .new-offer p::after {
+      content: "\A  (nowość)";
+      white-space: pre-wrap;
+      font-size: 18px;
+    }
+  
+    .dot-new {
+      width: 22px;
+      aspect-ratio: 1;
+      background-color: rgba(224, 122, 100, 1);
+      border-radius: 50%;
+      position: absolute;
+      top: -11px;
+      left: -11px;
+    }
+  
+    footer {
+      height: 147px;
+      background: rgba(78, 78, 78, 1);
+    }
+  
+    .container-footer {
+      height: 100%;
+    }
+  
+    .icons-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 0 0;
+    }
+  
+    i {
+      color: rgba(255, 255, 255, 1);
+      font-size: 31px;
+    }
+  
+    i:nth-of-type(2n) {
+      margin-left: 18px;
+    }
+  
+    .container-footer p {
+      font-weight: 700;
+      color: rgba(255, 255, 255, 1);
+      font-size: 18px;
+      text-align: center;
+      padding: 38px 0 0;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    html {
+      scroll-behavior: smooth;
+    }
+  
+    body {
+      font-family: "Roboto", sans-serif;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    nav {
+      height: 50px;
+      background-color: #4e4e4e;
+    }
+  
+    .container {
+      width: 960px;
+      height: 100%;
+      margin: 0 auto;
+    }
+  
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .nav-container span {
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      font-size: 18px;
+    }
+  
+    a {
+      font-size: 18px;
+      color: rgba(241, 241, 241, 1);
+    }
+  
+    .list {
+      display: flex;
+    }
+  
+    .list li:nth-of-type(2) {
+      margin: 0 46px;
+    }
+  
+    .disabled {
+      cursor: not-allowed;
+    }
+  
+    header {
+      height: calc(100vh - 50px);
+      background: url(./assets/bg.jpg) no-repeat center;
+      background-size: cover;
+    }
+  
+    .shadow {
+      height: 100%;
+      background: rgba(0, 0, 0, 0.15);
+    }
+  
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+    }
+  
+    .header-container h1 {
+      font-size: 36px;
+      width: 577px;
+      line-height: 42px;
+    }
+  
+    header p {
+      font-size: 18px;
+      margin: 62px 0 42px;
+    }
+  
+    .button-offer {
+      font-weight: 700;
+      font-size: 18px;
+      color: white;
+      border: 3px solid #ffffff;
+      width: 164px;
+      padding: 14px 58px;
+      box-sizing: border-box;
+    }
+  
+    .button-offer:hover {
+      background-color: white;
+      color: black;
+      transition-duration: 1s;
+    }
+  
+    section {
+      height: auto;
+      padding: 50px 0 50px;
+    }
+  
+    .specialist h2 {
+      font-size: 36px;
+      font-weight: bold;
+      color: rgba(21, 45, 65, 1);
+      padding: 0 0 78px 0;
+    }
+  
+    .circle-1 {
+      aspect-ratio: 1;
+      height: 197px;
+      background-color: rgba(196, 196, 196, 1);
+      border-radius: 50%;
+      margin: 0 60px 0 0;
+      background: url(./assets/person1.jpg) center;
+      background-size: 197px;
+    }
+  
+    .text-wrapper {
+      display: flex;
+    }
+  
+    .person {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .description {
+      white-space: pre-line;
+      font-size: 18px;
+      margin-bottom: 144px;
+      text-align: unset;
+    }
+  
+    .text-wrapper:nth-of-type(even) {
+      display: flex;
+      flex-direction: row-reverse;
+      text-align: right;
+    }
+  
+    .circle-2 {
+      aspect-ratio: 1;
+      height: 197px;
+      background-color: rgba(144, 125, 125, 1);
+      border-radius: 50%;
+      margin: 0 0 0 60px;
+      background: url(./assets/person2.jpg) center;
+      background-size: 197px;
+    }
+  
+    .offer {
+      background-color: rgba(64, 93, 120, 1);
+    }
+  
+    .offer h2 {
+      font-size: 36px;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      padding: 0 0 83px 0;
+    }
+  
+    .container-grid {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 63px;
+      justify-content: center;
+    }
+  
+    .box {
+      aspect-ratio: 1;
+      width: 198px;
+      background-color: rgba(241, 241, 241, 1);
+      position: relative;
+      box-shadow: 0px 5px rgba(0, 0, 0, 0.15);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+    }
+  
+    .box:hover {
+      transform: scale(1.05);
+      transition-duration: 500ms;
+    }
+  
+    .new-offer p::after {
+      content: "\A  (nowość)";
+      white-space: pre-wrap;
+      font-size: 15px;
+    }
+  
+    .dot-new {
+      width: 22px;
+      aspect-ratio: 1;
+      background-color: rgba(224, 122, 100, 1);
+      border-radius: 50%;
+      position: absolute;
+      top: -11px;
+      left: -11px;
+    }
+  
+    footer {
+      height: 71px;
+      background: rgba(78, 78, 78, 1);
+    }
+  
+    .container-footer {
+      display: flex;
+      height: 100%;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    i {
+      color: rgba(255, 255, 255, 1);
+      font-size: 31px;
+    }
+  
+    i:nth-of-type(2n) {
+      margin-left: 18px;
+    }
+  
+    .container-footer p {
+      font-weight: 700;
+      color: rgba(255, 255, 255, 1);
+      font-size: 18px;
+    }
+  }
+  
